@@ -1,72 +1,85 @@
 <!-- An article on the Web -->
 
 <!DOCTYPE html>
+
+
+
 <head>
 
-
-<link rel="stylesheet" href="css/articles.css">
-<meta name="description" content="This page could easily be stripped and set up as a form for other articles.
-I would prefer this over Jekyll for now. The articles could easily share a single style sheet like "articles.css"
-which would be perfect for using flexbox and setting everything perfectly uniform. I have decided to do this. all
-CSS which belonged on here, is to be tranfered to the style sheet. Let's make this guy bare.">
+  <link rel="stylesheet" href="css/articles.css">
+  <meta name="description" content="This page could easily be stripped and set up as a form for other articles.
+  I would prefer this over Jekyll for now. The articles could easily share a single style sheet like "articles.css"
+  which would be perfect for using flexbox and setting everything perfectly uniform. I have decided to do this. all
+  CSS which belonged on here, is to be tranfered to the style sheet. Let's make this guy bare.">
 </head>
 
-<h1> Replacing My Personal Logo </h1>
-<hr>
-<span><i>  An unnecessary update &#9830; 15 July, 2021 </i></span>
-
-<section width= "80%">
-
-<img src="twins wallpaper.png" alt="an image" width="600px" />
-
-<p width="70%">
-<p style="text-indent: 50px">
-Back in early-autumn 2019, I experimented with <i>8-bit</i> pixel art.
-I spent a few weeks drawing this way, but I found using GIMP was too
-time-dense. As much as I enjoyed the medium, I cannot bring myself to resume.
-<br> <br>
-<p style="text-indent: 50px">
-As to why I chose to change my logo? It kist felt like time. I stumbled upon
-<i> CSS art </i> on a social software development website. In all likelihood,
-I must have seen some in the past. Regardless, my new edition of my logo was
-drawn using pure CSS (and some HTML, of course, the divs), it was my actual
-first attempt drawing anything original. I'm mighty proud of my results.
-</p>
-</p>
-
-<br>
-<ul style="padding-left: 15%"> Bulleted list:
-  <li><b> one </b></li>
-  <li><s> two </s></li>
-  <li><i> three  </i></li>
-</ul>
-</p>
 
 
-<h2> A subheading </h2>
-<p>
+<section class="arc-box" >
 
-Another paragraph of text, followed by a <b> numbered list: </b>
-<ol>
-<li> <a href="https://www.test.com">Item 1 </a></li>
-<li> Item 2 </li>
-<li> Item 3 </li>
-</ol>
-</p>
+  <div class="arc-banner">
+    <h1 class="arc-title"> Replacing My Personal Logo </h1>
+    <span class="blerp"><i>  An unnecessary update &#9830; 15 July, 2021 </i></span>
+    <hr>
+  </div>
 
-<table border="1" cellpadding="5" cellspacing="0">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <td>James Smith</td>
-        <td>42</td>
-    </tr>
-    <tr>
-        <td>Amy Johnson</td>
-        <td>31</td>
-    </tr>
-</table>
+  <div class="arc-image">
+    <img  id="image" src="twins wallpaper.png" alt="an image" />
+  </div>
 
+
+
+  <section class="content" width= "80%">
+
+      <p width="70%">
+      <p style="text-indent: 50px">
+      Back in early-autumn 2019, I experimented with <i>8-bit</i> pixel art.
+      I spent a few weeks drawing this way, but I found using GIMP was too
+      time-dense. As much as I enjoyed the medium, I cannot bring myself to resume.
+      <br> <br>
+      <p style="text-indent: 50px">
+      As to why I chose to change my logo? It kist felt like time. I stumbled upon
+      <i> CSS art </i> on a social software development website. In all likelihood,
+      I must have seen some in the past. Regardless, my new edition of my logo was
+      drawn using pure CSS (and some HTML, of course, the divs), it was my actual
+      first attempt drawing anything original. I'm mighty proud of my results.
+      </p>
+      </p>
+
+      <br>
+      <ul style="padding-left: 15%"> Bulleted list:
+        <li><b> one </b></li>
+        <li><s> two </s></li>
+        <li><i> three  </i></li>
+      </ul>
+      </p>
+
+
+      <h2> A subheading </h2>
+      <p>
+
+      Another paragraph of text, followed by a <b> numbered list: </b>
+      <ol>
+      <li> <a href="https://www.test.com">Item 1 </a></li>
+      <li> Item 2 </li>
+      <li> Item 3 </li>
+      </ol>
+      </p>
+
+      <table border="1" cellpadding="5" cellspacing="0">
+          <tr>
+              <th>Name</th>
+              <th>Age</th>
+          </tr>
+          <tr>
+              <td>James Smith</td>
+              <td>42</td>
+          </tr>
+          <tr>
+              <td>Amy Johnson</td>
+              <td>31</td>
+          </tr>
+      </table>
+
+  </section>
 </section>
