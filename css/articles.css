@@ -53,7 +53,8 @@
 .content {
   margin-top: 5%;
   width: 95%;
-  overflow-y: scroll;
+  overflow-y: auto;
+  /* was scroll. Auto should automatically scroll if too much content */
 }
 
 ul {
